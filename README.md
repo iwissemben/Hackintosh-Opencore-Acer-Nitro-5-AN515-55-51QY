@@ -1,10 +1,12 @@
 # Hackintosh Opencore Acer Nitro 5 AN515-55-51QY
- Building my hackintosh on my laptop
+
+ Building my hackintosh on my laptop, sharing a config that works out of the box.
+
  ## System Configuration
 
- | Specification | Details       | PCI path / Hardware ID |
+ | Specifications | Details       | PCI path / Hardware ID |
  | ------------- | ------------- |----------------------- |
- | Laptop Model  | [Acer Nitro 5 AN515-55-QY](https://www.acer.com/fr-fr/laptops/nitro/nitro-5/pdp/NH.QB2EF.004) |-|
+ | Laptop Model  | [Acer Nitro 5 AN515-55-51QY](https://www.acer.com/fr-fr/laptops/nitro/nitro-5/pdp/NH.QB2EF.004) |-|
  | Processor     | Intel i5-10300H (Comet Lake) |-|
  | Graphics      | Intel UHD 630 & Nvidia RTX 3060 | iGPU - Intel UHD 630 :<br> `PCI\VEN_8086&DEV_9BC4&SUBSYS_143D1025&REV_05`<br> dGPU - Nvidia RTX 3060 :<br> `PCI\VEN_10DE&DEV_2520&SUBSYS_143E1025&REV_A1`|
  | RAM           | 16GB - 2x (Micron 8ATF1G64HZ-3G2J1 8GB DDR4-3200 (1600 MHz) SDRAM) |-|
