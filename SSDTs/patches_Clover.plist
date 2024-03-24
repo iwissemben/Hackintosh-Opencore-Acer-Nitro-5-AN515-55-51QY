@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ACPI</key>
+	<dict>
+		<key>DSDT</key>
+		<dict>
+			<key>Patches</key>
+			<array>
+				<dict>
+					<key>Comment</key>
+					<string>PNLF to XNLF Rename</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					UE5MRg==
+					</data>
+					<key>Replace</key>
+					<data>
+					WE5MRg==
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>_OSI to XOSI rename - requires SSDT-XOSI.aml</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X09TSQ==
+					</data>
+					<key>Replace</key>
+					<data>
+					WE9TSQ==
+					</data>
+				</dict>
+			</array>
+		</dict>
+		<key>SortedOrder</key>
+		<array>
+			<string>SSDT-EC.aml</string>
+			<string>SSDT-USBX.aml</string>
+			<string>SSDT-PLUG.aml</string>
+			<string>SSDT-PNLF.aml</string>
+			<string>SSDT-XOSI.aml</string>
+			<string>SSDT-RTCAWAC.aml</string>
+		</array>
+	</dict>
+</dict>
+</plist>
