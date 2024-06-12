@@ -7,7 +7,7 @@
 	<key>#Setup</key>
 	<string>Acer Nitro 5 AN515-55-51QY</string>
 	<key>#Src</key>
-	<string>https://github.com/iwissemben/Hackintosh-Opencore-Acer-Nitro-5-AN515-55-51QY/tree/V.1.0.0</string>
+	<string>https://github.com/iwissemben/Hackintosh-Opencore-Acer-Nitro-5-AN515-55-51QY</string>
 	<key>ACPI</key>
 	<dict>
 		<key>Add</key>
@@ -272,7 +272,7 @@
 			<key>ResizeAppleGpuBars</key>
 			<integer>-1</integer>
 			<key>SetupVirtualMap</key>
-			<true/>
+			<false/>
 			<key>SignalAppleOS</key>
 			<false/>
 			<key>SyncRuntimePermissions</key>
@@ -1157,7 +1157,7 @@
 			<key>ThirdPartyDrives</key>
 			<false/>
 			<key>XhciPortLimit</key>
-			<false/>
+			<true/>
 		</dict>
 		<key>Scheme</key>
 		<dict>
@@ -1731,11 +1731,5 @@
 			</dict>
 		</array>
 	</dict>
-	<key>#Author - 2</key>
-	<string>iwissemben</string>
-	<key>#Setup - 2</key>
-	<string>Acer Nitro 5 AN515-55-51QY</string>
-	<key>#Src - 2</key>
-	<string>https://github.com/iwissemben/Hackintosh-Opencore-Acer-Nitro-5-AN515-55-51QY/tree/V.1.0.0</string>
 </dict>
 </plist>
