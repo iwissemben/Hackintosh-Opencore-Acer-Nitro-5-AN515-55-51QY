@@ -84,6 +84,15 @@
 						<integer>255</integer>
 						<key>port</key>
 						<data>
+						BQAAAA==
+						</data>
+					</dict>
+					<key>HS06</key>
+					<dict>
+						<key>UsbConnector</key>
+						<integer>255</integer>
+						<key>port</key>
+						<data>
 						DgAAAA==
 						</data>
 					</dict>
