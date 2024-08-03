@@ -1,7 +1,8 @@
 # Hackintosh Opencore Acer Nitro 5 AN515-55-51QY
 
  Building my hackintosh on my laptop, sharing a config that works out of the box.
-![Screenshot 2024-02-14 at 20 42 17](https://github.com/iwissemben/Hackintosh-Opencore-Acer-Nitro-5-AN515-55-51QY/assets/107781875/97335928-6d18-4f7b-850a-5287d401fddb)
+<!-- ![Screenshot 2024-02-14 at 20 42 17](https://github.com/iwissemben/Hackintosh-Opencore-Acer-Nitro-5-AN515-55-51QY/assets/107781875/97335928-6d18-4f7b-850a-5287d401fddb) -->
+<img width="2300" alt="final_banner@2x" src="/Documentation/illustrations/illustration_1_hackintosh.jpg">
 
  ## System Configuration
 
