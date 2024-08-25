@@ -37,7 +37,7 @@
 - [x] Webcam
 - [x] Sleep + Wake
 - [x] Battery percentage
-- [x] iServices (Messages, FaceTime, etc.) => Must edit `config.plist`'s PlatformInfo section.<br>:warning: Never reuse existing info, else AppleID ban :warning: Discussed [here](https://github.com/iwissemben/Hackintosh-Opencore-Acer-Nitro-5-AN515-55-51QY/discussions/7#discussion-6646243)
+- [x] iServices (Messages, FaceTime, etc.) => Must edit `config.plist`'s PlatformInfo section.<br>:warning: Never reuse existing info, generate your own! Else AppleID will be banned :warning: Discussed [here](https://github.com/iwissemben/Hackintosh-Opencore-Acer-Nitro-5-AN515-55-51QY/discussions/7#discussion-6646243)
 
 
 ## What's not (yet) working
