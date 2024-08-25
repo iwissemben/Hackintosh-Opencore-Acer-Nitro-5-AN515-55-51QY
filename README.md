@@ -17,10 +17,12 @@
  | Ethernet      | Realtek - Killer E2600 Gigabit Ethernet Controller |`PCI\VEN_10EC&DEV_2600&SUBSYS_143D1025&REV_21`|
  | Wifi          | Realtek - Intel(R) Wi-Fi 6 AX201 160MHz |`PCI\VEN_8086&DEV_06F0&SUBSYS_00748086&REV_00`|
  | Bluetooth     | Realtek - Intel(R) Wi-Fi 6 AX201 160MHz |`PCI\VEN_8086&DEV_06F0&SUBSYS_00748086&REV_00`|
-
-- macOS Ventura
-- macOS Sonoma 14.3.1 (latest version)
+ 
 - OpenCore 0.9.8
+- macOS Ventura 
+- macOS Sonoma 14.3.1 
+- macsOS Sonoma 14.5 (latest version)
+
 
 ## What's working
 
@@ -35,11 +37,14 @@
 - [x] Webcam
 - [x] Sleep + Wake
 - [x] Battery percentage
+- [x] iServices (Messages, FaceTime, etc.) => Must edit `config.plist`'s PlatformInfo section.<br>:warning: Never reuse existing info, else AppleID ban :warning: Discussed [here](https://github.com/iwissemben/Hackintosh-Opencore-Acer-Nitro-5-AN515-55-51QY/discussions/7#discussion-6646243)
 
 
 ## What's not (yet) working
-- [ ] iServices (Messages, FaceTime, etc.)
+
+- [ ] Audio (Combo jack hissing at startup, airpods work perfectly)
 - [ ] Battery readouts (cycle count, temperature)
-- [ ] Audio (Combo jack at startup)
+
+## What will never work
 - [ ] RTX 3060 (macOS does not support Nvidia's Ampere (30XX) GPUs).
 - [ ] HDMI port (since it's powered by the RTX 3060).
