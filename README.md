@@ -80,9 +80,9 @@ That is why I chose to <b>transition</b> from the Intel WiFi AX201 Card with a <
 For many tutorials, this Broadcom card is considered as a <u><b> "Modern WiFi card" "Non-Apple AirPort and Non-Fenvi Card" </b></u>, the Bluetooth part as a separate dongle.
 
 ### Methodology
-In a spirit of consistency and continuity, I chose to add Broadcom support using the latest version of my EFI ([v1.2.0](https://github.com/iwissemben/Hackintosh-Opencore-Acer-Nitro-5-AN515-55-51QY/releases/tag/V.1.2.0)) as base before continuing to upgrade the non-related kexts and bootloader.
+In a spirit of consistency and continuity, I chose to add Broadcom support using the latest version of my EFI ([v1.2](https://github.com/iwissemben/Hackintosh-Opencore-Acer-Nitro-5-AN515-55-51QY/releases/tag/V.1.2.0)) as base before continuing to upgrade the non-related kexts and bootloader.
 
-Thus everything detailed below uses the same OpenCore bootloader version (V.0.9.8), and kexts versions (except for the `Lilu.kext`).
+Thus everything detailed below uses the same OpenCore bootloader version (V.0.9.8), and kexts versions (except for the `Lilu.kext`) and the EFI release 1.3 (add release link) can be seen as an <b> alternate version </b> of the ([EFI v1.2](https://github.com/iwissemben/Hackintosh-Opencore-Acer-Nitro-5-AN515-55-51QY/releases/tag/V.1.2.0)) able to support both Broadcom BCM94352z and intel  AX201 WiFi/Bluetooth card.
 
 ### Consequences
 
