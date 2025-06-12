@@ -4,6 +4,21 @@ Building a hackintosh on my laptop, sharing a config that works out of the box.
 <!-- ![Screenshot 2024-02-14 at 20 42 17](https://github.com/iwissemben/Hackintosh-Opencore-Acer-Nitro-5-AN515-55-51QY/assets/107781875/97335928-6d18-4f7b-850a-5287d401fddb) -->
 <img width="2300" alt="final_banner@2x" src="/Documentation/illustrations/illustration_1_hackintosh.jpg">
 
+<!-- markdownlint-disable MD033 -->
+<h2 align="center">🌐 Table of Contents</h2>
+
+- 🔧 [System Configuration](#system-configuration)  
+- ✅ [What's Working](#whats-working)  
+- ⚠️ [What's Not Yet Working](#whats-not-yet-working)  
+- ❌ [What Will Never Work](#what-will-never-work)  
+- 📡 [About Bluetooth & WiFi](#about-bluetooth--wifi)  
+  - 🧪 [Methodology](#methodology)  
+  - 📚 [Consequences](#consequences)  
+    - 🧩 [Kexts Side](#kexts-side)  
+    - 🛠️ [OCLP Patching](#oclp-patching)  
+    - 👨🏻‍🔧 [bluetoothExternalDongleFailed Issue](#bluetoothexternaldonglefailed-issue)  
+- 🙏 [Credits](#credits)
+
 ## System Configuration
 
 | Specifications | Details       | PCI path / Hardware ID |
@@ -122,12 +137,7 @@ Resetting NVRAM twice each time being laborious, I discovered [Lawrence Bates/LB
 
 While Lawrence's solution didn't work for me (probably because I'm not on macOS Sequoia yet) it set me on the right track to solve the issue.
 
-Please see the tutorial to fix it [here](Documentation/Broadcom_BCM94352z/bluetooth-nvram-fix.md)
-
-#### Credits
-...
-
-
+Please see the tutorial to fix it [here](/Documentation/Broadcom_BCM94352z/bluetoothExternalDongleFailed-fix.md)
 
 
 #### Credits
