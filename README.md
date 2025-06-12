@@ -89,12 +89,11 @@ Thus everything detailed below uses the same OpenCore bootloader version (V.0.9.
 #### Kexts side
 
 To enable support of the Broadcom BCM94352z WiFi/Bluetooth card here is what has changed on a Kext level, and in the future all kexts will only be updated. 
-
 - First, all Intel AX201 related kexts are disabled (but not deleted) : 
     - `IntelBluetoothFirmware.kext`
     - `IntelBTPatcher.kext`
     - `AirportItlwm.kext`
-<br>
+
 - Secondly, new Broadcom BCM94352z kexts are added :
     - `AMFIPass.kext`: Disable AMFI (Apple Mobile File Integrity) without requiring supplementary boot-args, thus allows OCLP root patching. 
         - To handle this kext's functionality with EFI ([v1.2.0](https://github.com/iwissemben/Hackintosh-Opencore-Acer-Nitro-5-AN515-55-51QY/releases/tag/V.1.2.0)), `Lilu.kext` had to be updated (1.6.7 -> 1.7.0)
