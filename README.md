@@ -2,10 +2,12 @@
 
 Building a hackintosh on my laptop, sharing a config that works out of the box.
 <!-- ![Screenshot 2024-02-14 at 20 42 17](https://github.com/iwissemben/Hackintosh-Opencore-Acer-Nitro-5-AN515-55-51QY/assets/107781875/97335928-6d18-4f7b-850a-5287d401fddb) -->
-<img width="2300" alt="final_banner@2x" src="/Documentation/illustrations/illustration_1_hackintosh.jpg">
 
-<!-- markdownlint-disable MD033 -->
-<h2 align="center">🌐 Table of Contents</h2>
+<p align="center">
+<img width="2300" alt="final_banner@2x" src="/Documentation/illustrations/illustration_1_hackintosh.jpg">
+</p>
+
+## Table of Contents
 
 - 🔧 [System Configuration](#system-configuration)  
 - ✅ [What's Working](#whats-working)  
@@ -19,6 +21,7 @@ Building a hackintosh on my laptop, sharing a config that works out of the box.
     - 👨🏻‍🔧 [bluetoothExternalDongleFailed Issue](#bluetoothexternaldonglefailed-issue)  
 - 🙏 [Credits](#credits)
 
+---
 ## System Configuration
 
 | Specifications | Details       | PCI path / Hardware ID |
@@ -110,9 +113,16 @@ To enable support of the Broadcom BCM94352z WiFi/Bluetooth card here is what has
 
 - `BlueToolFixup.kext` has to be kept on to enable Bluetooth functionality in either case.
 
-*macOS VerDep: Kexts are Kernel version dependent to allow their dynamic activation, more info [on utilizing `minKernel` and `maxKernel` settings](https://github.com/5T33Z0/OC-Little-Translated/tree/main/10_Kexts_Loading_Sequence_Examples#utilizing-minkernel-and-maxkernel-settings).
+> [!IMPORTANT]
+>
+> *macOS VerDep: Kexts are Kernel version dependent to allow their dynamic activation, more info [on utilizing `minKernel` and `maxKernel` settings](https://github.com/5T33Z0/OC-Little-Translated/tree/main/10_Kexts_Loading_Sequence_Examples#utilizing-minkernel-and-maxkernel-settings).
 
-To bring back Intel AX201 support, disable Broadcom's kexts except `BlueToolFixup.kext` as it is used to enable WiFi functionality in either case.
+
+> [!IMPORTANT]
+>
+> To bring back Intel AX201 support, disable Broadcom's kexts except `BlueToolFixup.kext` as it is used to enable WiFi functionality in either case.
+
+
 
 #### OCLP patching
 As Apple removed support of unsoldered Broadcom WiFi/Bluetooth cards since Sonoma, in addition to kexts, the Broadcom BCM94352z requires OCLP patching to work again. OCLP patching is a process of customizing the OpenCore bootloader.
@@ -122,11 +132,14 @@ As Apple removed support of unsoldered Broadcom WiFi/Bluetooth cards since Sonom
     - <u> Partially disable</u> System Integrity Protection (`SIP`)
     - <u> Disable</u> Apple Mobile File Integrity (`AMFI`)
 
-NB1: `SecureBootModel` can be re-enabled after Root patching.
+> [!IMPORTANT]
+>
+> `SecureBootModel` can be re-enabled after Root patching.
 
-NB2: `AMFI` can be disabled by adding the `amfi=0x80` boot-arg to the NVRAM, or using `AMFIPass.kext`. I chose the latter as it is 'more visible and clean' than the boot-arg method.
-
-More information on the matter [here](#Credits).
+> [!IMPORTANT]
+>
+> `AMFI` can be disabled by adding the `amfi=0x80` boot-arg to the NVRAM, or using `AMFIPass.kext`. I chose the latter as it is 'more visible and clean' than the boot-arg method.
+> More information on the matter [here](#Credits).
 
 #### bluetoothExternalDongleFailed
 Despite adding a `bluetoothExternalDongleFailed = 00` entry to the NVRAM ([see guides](#Credits)), Bluetooth (and AirDrop) were disabled after a cold boot. To make it work I had to reset NVRAM twice after each cold boot. 
@@ -139,7 +152,7 @@ While Lawrence's solution didn't work for me (probably because I'm not on macOS 
 
 Please see the tutorial to fix it [here](/Documentation/Broadcom_BCM94352z/bluetoothExternalDongleFailed-fix.md)
 
-
+---
 #### Credits
 
 
