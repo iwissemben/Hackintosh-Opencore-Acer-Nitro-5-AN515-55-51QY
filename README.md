@@ -36,10 +36,19 @@ Building a hackintosh on my laptop, sharing a config that works out of the box.
 | Wifi          | Realtek - Intel(R) Wi-Fi 6 AX201 160MHz |`PCI\VEN_8086&DEV_06F0&SUBSYS_00748086&REV_00`|
 | Bluetooth     |  - Realtek - Intel(R) Wi-Fi 6 AX201 160MHz <br> - Broadcom BCM94352z |`PCI\VEN_8086&DEV_06F0&SUBSYS_00748086&REV_00` <br> `PCI\VEN_14E4&DEV_43B1&SUBSYS_072A14E4&REV_03` |
 
+### Software Configuration 
+Here are the EFI Releases and supported (tested) macOS versions
+
+From EFI V1.0 to EFI V1.3
 - OpenCore 0.9.8
 - macOS Ventura 
 - macOS Sonoma 14.3.1 
 - macOS Sonoma 14.5 (latest version)
+
+From EFI 1.4
+- OpenCore 1.0.5
+- macOS Sonoma 14.5
+
 
 ## What's working
 
