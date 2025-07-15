@@ -4,7 +4,7 @@ Building a hackintosh on my laptop, sharing a config that works out of the box.
 <!-- ![Screenshot 2024-02-14 at 20 42 17](https://github.com/iwissemben/Hackintosh-Opencore-Acer-Nitro-5-AN515-55-51QY/assets/107781875/97335928-6d18-4f7b-850a-5287d401fddb) -->
 
 <p align="center">
-<img width="2300" alt="final_banner@2x" src="/Documentation/illustrations/illustration_1_hackintosh.jpg">
+<img width="2300" alt="final_banner@2x" src="Documentation/illustrations/illustration_sequoia_hackintosh.jpg">
 </p>
 
 ## Table of Contents
@@ -39,15 +39,16 @@ Building a hackintosh on my laptop, sharing a config that works out of the box.
 ### Software Configuration 
 Here are the EFI Releases and supported (tested) macOS versions
 
-From EFI V1.0 to EFI V1.3
-- OpenCore 0.9.8
-- macOS Ventura 
-- macOS Sonoma 14.3.1 
-- macOS Sonoma 14.5 (latest version)
+- From EFI V1.0 up to EFI V1.3
+    - OpenCore 0.9.8
+    - macOS Ventura 
+    - macOS Sonoma 14.3.1 
+    - macOS Sonoma 14.5 (latest version)
 
-From EFI 1.4
-- OpenCore 1.0.5
-- macOS Sonoma 14.5
+- From EFI 1.4
+    - OpenCore 1.0.5
+    - macOS Sonoma 14.5
+    - macOS Sequoia 15.5 (24F74)
 
 
 ## What's working
