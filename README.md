@@ -50,6 +50,10 @@ Here are the EFI Releases and supported (tested) macOS versions
     - macOS Sonoma 14.5
     - macOS Sequoia 15.5 (24F74)
 
+> [!IMPORTANT]
+>
+> I noticed that during macOS update installation using a USB stick, the trackpad's click function may not work. Please plug a mouse and continue the installation, the trackpad will work fine automatically after the end of the installation.
+
 
 ## What's working
 
@@ -140,6 +144,10 @@ As Apple removed support of unsoldered Broadcom WiFi/Bluetooth cards since Sonom
     - <u> Disable</u> `SecureBootModel`
     - <u> Partially disable</u> System Integrity Protection (`SIP`)
     - <u> Disable</u> Apple Mobile File Integrity (`AMFI`)
+
+> [!IMPORTANT]
+>
+> OCLP patching is needed after each macOS update to make WiFi work.
 
 > [!IMPORTANT]
 >
