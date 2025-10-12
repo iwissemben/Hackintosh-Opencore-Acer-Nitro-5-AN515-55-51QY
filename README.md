@@ -1,11 +1,6 @@
 # Hackintosh Opencore Acer Nitro 5 AN515-55-51QY
 
 Building a hackintosh on my laptop, sharing a config that works out of the box.
-<!-- ![Screenshot 2024-02-14 at 20 42 17](https://github.com/iwissemben/Hackintosh-Opencore-Acer-Nitro-5-AN515-55-51QY/assets/107781875/97335928-6d18-4f7b-850a-5287d401fddb) -->
-
-<p align="center">
-<img width="2300" alt="final_banner@2x" src="Documentation/illustrations/illustration_sequoia_hackintosh.jpg">
-</p>
 
 > [!WARNING]
 > <B>Prior to engaging</B> in this repo and trying anything on your machine, you must already have the basics of hackintoshing. Reading [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/) is essential to avoid any issues that may range from <u>Apple ID ban</u> to making your machine <u> unusable</u>!
@@ -18,6 +13,11 @@ Building a hackintosh on my laptop, sharing a config that works out of the box.
 > This can lead to issues ranging Apple ID band or making your machine unusable
 >
 > Again, please read Dortania's [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/)
+<!-- ![Screenshot 2024-02-14 at 20 42 17](https://github.com/iwissemben/Hackintosh-Opencore-Acer-Nitro-5-AN515-55-51QY/assets/107781875/97335928-6d18-4f7b-850a-5287d401fddb) -->
+
+<p align="center">
+<img width="2300" alt="final_banner@2x" src="Documentation/illustrations/illustration_sequoia_hackintosh.jpg">
+</p>
 
 > [!IMPORTANT]
 > Collaboration is the key to success, if you find any bug or have a suggestion for improvement, please do not hesitate to post something in the [Discussions](https://github.com/iwissemben/Hackintosh-Opencore-Acer-Nitro-5-AN515-55-51QY/discussions) or [Issues](https://github.com/iwissemben/Hackintosh-Opencore-Acer-Nitro-5-AN515-55-51QY/issues) sections.
