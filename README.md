@@ -3,14 +3,14 @@
 Building a hackintosh on my laptop, sharing a config that works out of the box.
 
 > [!WARNING]
-> <B>Prior to engaging</B> in this repo and trying anything on your machine, you must already have the basics of hackintoshing. Reading [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/) is essential to avoid any issues that may range from <u>Apple ID ban</u> to making your machine <u> unusable</u>!
+> <B>Prior to engaging</B> in this repo and trying anything on your machine, you must already have the basics of hackintoshing. Reading [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/) is essential to avoid any issues.
 >
 > <b>Only after</b> you get the basics, you can use my EFI and tune it to <u>fit your needs</u>.
 
 > [!CAUTION]
 > Testing the EFI on your machine without any verification of whats inside, and how to troubleshoot is very risky.
 >
-> This can lead to issues ranging Apple ID band or making your machine unusable
+> This can lead to issues ranging from <u>Apple ID ban</u> to <u>breaking your machine</u>!
 >
 > Again, please read Dortania's [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/)
 <!-- ![Screenshot 2024-02-14 at 20 42 17](https://github.com/iwissemben/Hackintosh-Opencore-Acer-Nitro-5-AN515-55-51QY/assets/107781875/97335928-6d18-4f7b-850a-5287d401fddb) -->
