@@ -7,6 +7,24 @@ Building a hackintosh on my laptop, sharing a config that works out of the box.
 <img width="2300" alt="final_banner@2x" src="Documentation/illustrations/illustration_sequoia_hackintosh.jpg">
 </p>
 
+> [!WARNING]
+> <B>Prior to engaging</B> in this repo and trying anything on your machine, you must already have the basics of hackintoshing. Reading [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/) is essential to avoid any issues that may range from <u>Apple ID ban</u> to making your machine <u> unusable</u>!
+>
+> <b>Only after</b> you get the basics, you can use my EFI and tune it to <u>fit your needs</u>.
+
+> [!CAUTION]
+> Testing the EFI on your machine without any verification of whats inside, and how to troubleshoot is very risky.
+>
+> This can lead to issues ranging Apple ID band or making your machine unusable
+>
+> Again, please read Dortania's [Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/)
+
+> [!IMPORTANT]
+> Collaboration is the key to success, if you find any bug or have a suggestion for improvement, please do not hesitate to post something in the [Discussions](https://github.com/iwissemben/Hackintosh-Opencore-Acer-Nitro-5-AN515-55-51QY/discussions) or [Issues](https://github.com/iwissemben/Hackintosh-Opencore-Acer-Nitro-5-AN515-55-51QY/issues) sections.
+>
+> Don't forget to specify your <b>Exact hardware and software configuration in your message</b>
+
+
 ## Table of Contents
 
 - 🔧 [System Configuration](#system-configuration)  
