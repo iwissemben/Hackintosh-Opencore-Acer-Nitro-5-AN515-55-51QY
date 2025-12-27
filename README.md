@@ -16,7 +16,7 @@ Building a hackintosh on my laptop, sharing a config that works out of the box.
 <!-- ![Screenshot 2024-02-14 at 20 42 17](https://github.com/iwissemben/Hackintosh-Opencore-Acer-Nitro-5-AN515-55-51QY/assets/107781875/97335928-6d18-4f7b-850a-5287d401fddb) -->
 
 <p align="center">
-<img width="2300" alt="final_banner@2x" src="Documentation/illustrations/illustration_sequoia_hackintosh.jpg">
+<img width="2300" alt="Image of an Acer Nitro 5 with macOS Sequoia desktop and system specifications on its screen." src="Documentation/illustrations/illustration_sequoia_hackintosh.jpg">
 </p>
 
 > [!IMPORTANT]
@@ -37,6 +37,8 @@ Building a hackintosh on my laptop, sharing a config that works out of the box.
     - 🧩 [Kexts Side](#kexts-side)  
     - 🛠️ [OCLP Patching](#oclp-patching)  
     - 👨🏻‍🔧 [bluetoothExternalDongleFailed Issue](#bluetoothexternaldonglefailed-issue)  
+- 👨🏻‍🔧[Troubleshooting](#troubleshooting)
+
 - 🙏 [Credits](#credits)
 
 ---
@@ -187,8 +189,12 @@ While Lawrence's solution didn't work for me (probably because I'm not on macOS 
 
 Please see the tutorial to fix it [here](/Documentation/Broadcom_BCM94352z/bluetoothExternalDongleFailed-fix.md)
 
----
-#### Credits
+## Troubleshooting
+
+Found a bug? Check the [Troubleshooting Guide](/Documentation/TROUBLESHOOTING.md) before opening an issue.
+
+
+## Credits
 
 
 ##### [5T33Z0 Guides](https://github.com/5T33Z0)
@@ -218,3 +224,5 @@ For giving an introductory framework to add WiFi support using the broadcom card
 For fixing the NVRAM setting `bluetoothExternalDongleFailed` that keeps getting reset to `01` (Failed/disabled) despite specifing its value as an NVRAM entry in the `config.plist`.
 - https://www.insanelymac.com/forum/topic/360799-hackintosh-bluetooth-reset-fix/
 - https://gist.github.com/LBates2000/32be3c79dd987e72b98bb669c43fccbf
+
+ # 🔝 Back to the [Table of Contents](#table-of-contents)
