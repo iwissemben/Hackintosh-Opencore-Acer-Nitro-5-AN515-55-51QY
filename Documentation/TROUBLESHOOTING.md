@@ -4,7 +4,15 @@ This page centralizes known issues and solutions for the **Acer Nitro 5 AN515-55
 
 ---
 
-## 🚫 Boot Issues
+## Table of Contents
+
+- [Boot Issues](#boot-issues)  
+- [Input Issues](#input-issues)  
+- [Wireless Issues](#wireless-issues)  
+
+---
+
+## Boot Issues
 
 ### Apple Logo Hang or "Circle with a line through it" (SATA Mode Error)
 
@@ -78,18 +86,19 @@ SATA mode is defined on other than `AHCI`, below on `Optane with RAID` in bios' 
 
 ---
 
-## 🖱️ Input Issues
+## Input Issues
 
 ### Trackpad click not working during installation
 
 I noticed that during macOS update installation using a USB stick, the trackpad's click function may not work.
 
 #### The Fix
+
 - Plug a mouse and continue the installation; the trackpad will work fine automatically after the end of the installation.
 
 ---
 
-## 📡 Wireless Issues
+## Wireless Issues
 
 ### Bluetooth disabled after cold boot
 
