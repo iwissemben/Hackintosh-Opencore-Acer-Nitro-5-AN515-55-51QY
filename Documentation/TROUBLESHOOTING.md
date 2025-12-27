@@ -15,9 +15,9 @@ If you have recently performed hardware maintenance (like cleaning the motherboa
 >
 > Source: [OpenCore Install Guide - SATA issues](https://dortania.github.io/OpenCore-Install-Guide/troubleshooting/extended/kernel-issues.html#sata-issues)
 
-**Symptoms:**
+#### Symptoms
 
-* The Apple logo stucks during boot after a bit of loading, followed by a "🚫" (stop sign).
+ - The Apple logo stucks during boot after a bit of loading, followed by a "🚫" (stop sign).
 
 <p align="center">
   <img
@@ -26,8 +26,15 @@ If you have recently performed hardware maintenance (like cleaning the motherboa
   src="/Documentation/Img/Error/macos_startup_circle_with_line.png">
 </p>
 
-**Cause:**
-SATA mode is defined on other than `AHCI`, below on `Optane with RAID`:
+
+
+#### Cause
+SATA mode is defined on other than `AHCI`, below on `Optane with RAID` in bios' `Information` section:
+
+<details>
+
+<summary><b>See illustration</b></summary>
+
 <p align="center">
   <img
   width="800"
@@ -35,20 +42,28 @@ SATA mode is defined on other than `AHCI`, below on `Optane with RAID`:
   src="/Documentation/Img/Solutions/SATA_Mode_1.JPG">
 </p>
 
-**The Fix:**
+</details>
+
+#### The Fix
 
 1. **Enter BIOS**: Press `F2` repeatedly at startup.
 2. **Unhide the Setting**: Go to the **Main** tab. Press `Ctrl` + `S` simultaneously. A hidden "SATA Mode" (or "VMD Controller") option will appear.
+    <details>
 
-<p align="center">
-  <img 
-  width="800" 
-  alt="Screenshot of BIOS showing a hidden menu in 'Main' to change SATA mode to 'AHCI'." 
-  src="/Documentation/Img/Solutions/SATA_Mode_2.JPG">
-</p>
+    <summary><b>See illustration</b></summary>
 
-1. **Change Mode**: Set **SATA Mode** to `AHCI` (or set **VMD Controller** to `Disabled`).
-2. **Reset NVRAM**: Save and exit (`F10`). In the OpenCore boot picker, select **Reset NVRAM**.
+    <p align="center">
+      <img 
+      width="800" 
+      alt="Screenshot of BIOS showing a hidden menu in 'Main' to change SATA mode to 'AHCI'." 
+      src="/Documentation/Img/Solutions/SATA_Mode_2.JPG">
+    </p>
+
+    </details>
+
+
+3. **Change Mode**: Set **SATA Mode** to `AHCI` (or set **VMD Controller** to `Disabled`).
+4. **Reset NVRAM**: Save and exit (`F10`). In the OpenCore boot picker, select **Reset NVRAM**.
 
 > [!WARNING]
 > **Windows Dual Boot Safety:** Changing to AHCI will cause a "Blue Screen of Death" (BSOD) on Windows if it was installed in RAID mode.
@@ -69,7 +84,8 @@ SATA mode is defined on other than `AHCI`, below on `Optane with RAID`:
 
 I noticed that during macOS update installation using a USB stick, the trackpad's click function may not work.
 
-* **Solution**: Please plug a mouse and continue the installation; the trackpad will work fine automatically after the end of the installation.
+#### The Fix
+- Plug a mouse and continue the installation; the trackpad will work fine automatically after the end of the installation.
 
 ---
 
@@ -77,8 +93,9 @@ I noticed that during macOS update installation using a USB stick, the trackpad'
 
 ### Bluetooth disabled after cold boot
 
-Despite specifying NVRAM entries, Bluetooth (and AirDrop) might be disabled after a cold boot because `bluetoothExternalDongleFailed` keeps resetting to `01`.
+  Despite specifying NVRAM entries, Bluetooth (and AirDrop) might be disabled after a cold boot because `bluetoothExternalDongleFailed` keeps resetting to `01`.
 
-* **Solution**: Refer to the detailed fix in the [Bluetooth NVRAM fix](/Documentation/Broadcom_BCM94352z/bluetoothExternalDongleFailed-fix.md).
+#### The Fix
+  Refer to the detailed fix in the [Bluetooth NVRAM fix](/Documentation/Broadcom_BCM94352z/bluetoothExternalDongleFailed-fix.md).
 
 # 🔝 Back to the [Table of Contents](#table-of-contents)
