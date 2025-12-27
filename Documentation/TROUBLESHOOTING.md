@@ -2,7 +2,6 @@
 
 This page centralizes known issues and solutions for the **Acer Nitro 5 AN515-55-51QY** Hackintosh. If you encounter a problem that isn't listed here, feel free to open an [Issue](https://github.com/iwissemben/Hackintosh-Opencore-Acer-Nitro-5-AN515-55-51QY/issues).
 
----
 
 ## Table of Contents
 
@@ -10,7 +9,6 @@ This page centralizes known issues and solutions for the **Acer Nitro 5 AN515-55
 - [Input Issues](#input-issues)  
 - [Wireless Issues](#wireless-issues)  
 
----
 
 ## Boot Issues
 
@@ -69,7 +67,6 @@ SATA mode is defined on other than `AHCI`, below on `Optane with RAID` in bios' 
 
     </details>
 
-
 3. **Change Mode**: Set **SATA Mode** to `AHCI` (or set **VMD Controller** to `Disabled`).
 4. **Reset NVRAM**: Save and exit (`F10`). In the OpenCore boot picker, select **Reset NVRAM**.
 
@@ -84,7 +81,6 @@ SATA mode is defined on other than `AHCI`, below on `Optane with RAID` in bios' 
 > 4. Windows will boot in Safe Mode and update drivers.
 > 5. Run: `bcdedit /deletevalue {current} safeboot` and restart normally.
 
----
 
 ## Input Issues
 
@@ -96,7 +92,6 @@ I noticed that during macOS update installation using a USB stick, the trackpad'
 
 - Plug a mouse and continue the installation; the trackpad will work fine automatically after the end of the installation.
 
----
 
 ## Wireless Issues
 
