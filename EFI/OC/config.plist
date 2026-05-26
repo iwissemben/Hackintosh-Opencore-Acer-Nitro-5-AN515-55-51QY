@@ -1652,7 +1652,7 @@
 				<key>bluetoothInternalControllerInfo</key>
 				<data>AAAAAAAAAAAAAAAAAAA=</data>
 				<key>boot-args</key>
-				<string>debug=0x100 keepsyms=1 igfxonln=1 brcmfx-country=FR -btlfxboardid</string>
+				<string>debug=0x100 keepsyms=1 brcmfx-country=FR -btlfxboardid</string>
 				<key>csr-active-config</key>
 				<data>AwgAAA==</data>
 				<key>prev-lang:kbd</key>
